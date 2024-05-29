@@ -14,7 +14,7 @@ const Home = () => {
       className=" h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-screen px-4  md:flex-row ">
-        <div className="flex flex-col justify-center h-full lg:ml-10  ">
+        <div className="flex flex-col justify-center h-full lg:ml-10 mt-20 sm:mt-0  ">
           <h2 className="text-2xl sm:text-6xl  font-bold text-white">
             I'm a Full Stack Developer
           </h2>
@@ -39,7 +39,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl   h-[200px] md:h-[330px] md:mt-[-40px]  md:w-full lg:pr-2"
+            className="rounded-2xl h-[250px] md:h-[330px] mt-4 mb-16 md:mb-0 md:mt-[-40px]  w-full lg:pr-2"
           />
         </div>
       </div>
